@@ -1,0 +1,13 @@
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/bin/Debug/netcoreapp3.1/ExamFirstSemester.deps.json
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/bin/Debug/netcoreapp3.1/ExamFirstSemester.runtimeconfig.json
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/bin/Debug/netcoreapp3.1/ExamFirstSemester.runtimeconfig.dev.json
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/bin/Debug/netcoreapp3.1/ExamFirstSemester.dll
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/bin/Debug/netcoreapp3.1/ExamFirstSemester.pdb
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.csproj.AssemblyReference.cache
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.GeneratedMSBuildEditorConfig.editorconfig
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.AssemblyInfoInputs.cache
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.AssemblyInfo.cs
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.csproj.CoreCompileInputs.cache
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.dll
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.pdb
+/Users/patrik/Desktop/ExamFirstSemester/ExamFirstSemester/obj/Debug/netcoreapp3.1/ExamFirstSemester.genruntimeconfig.cache

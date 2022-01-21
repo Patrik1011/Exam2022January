@@ -11,6 +11,13 @@ namespace ExamFirstSemester
             Console.WriteLine("Count: " + count + " " + date);
             Console.WriteLine("-------------------------\n");
         }
+        
+        public static void PrintCustomerHelp(string headline, string body)
+        {
+            Console.WriteLine($"--------{headline.ToUpper()}--------");
+            Console.WriteLine(body);
+            Console.WriteLine("-------------------------\n");
+        }
     }
 
     

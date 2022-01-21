@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ExamFirstSemester
 {
@@ -6,6 +7,13 @@ namespace ExamFirstSemester
     public class Starter
     {
         public BikeCatalog customerCatalog = new BikeCatalog();
+        
+        
+        public CustomerCatalog catalogCustomers = new CustomerCatalog(new List<Customer>
+        {
+            new Customer("Patrik" , "Hoferica" ,  "Roskilde, Denamrk"),
+            new Customer("Adam" , "Ben" , "4000, Arhus , Denamrk")
+        });
         public void Start(){
             
             //creating objects and displaying them
@@ -58,7 +66,12 @@ namespace ExamFirstSemester
         Console.WriteLine("----------------DELETE BIKES WITH THE SAME MODEL----------------");
         customerCatalog.deleteAllBikesOfModel("Hero");
         customerCatalog.PrintBikeList();
-
+        
+        
+        //list of users
+        Console.WriteLine("");
+        Console.WriteLine("----------------CUSTOMERS CATALOG----------------");
+        catalogCustomers.PrintInfo();
 
 
         }

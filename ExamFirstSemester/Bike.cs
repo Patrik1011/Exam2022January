@@ -2,10 +2,10 @@ namespace ExamFirstSemester
 {
     public class Bike
     {
-        private string _model;
-        private int _yearOfPurchase;
-        private string _frameColor;
-        private int _chasisNumber;
+        protected string _model;
+        protected int _yearOfPurchase;
+        protected string _frameColor;
+        protected int _chasisNumber;
 
         public Bike(string model, int yearOfPurchase, string frameColor, int chasisNumber)
         {

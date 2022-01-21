@@ -27,13 +27,25 @@ namespace ExamFirstSemester
 
         public void AddBike(Bike aBike)
         {
-            if (aBike != null){
-                _bikes.Add(aBike); 
-            }
-            
-            else return;
-        }
+            if (aBike == null) return;
+            _bikes.Add(aBike); 
+            /*
+            foreach (var a in _bikes)
+            {
+                if (a.ChasisNumber != aBike.ChasisNumber)
+                {
+                    _bikes.Add(aBike); 
+                }
 
+                else
+                {
+                    
+                    throw new ArgumentException("Cannot add bike");
+                }
+            }*/
+        }
+        
+        
         public void PrintBikeList()
         {
             int count = _bikes.Count;

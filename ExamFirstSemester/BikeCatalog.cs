@@ -8,10 +8,12 @@ namespace ExamFirstSemester
     {
         
         private List<Bike> _bikes;
+        private List<Bike> _bikesSearched;
         
         public BikeCatalog()
         {
             _bikes = new List<Bike>();
+            _bikesSearched = new List<Bike>();
         }
         
         public BikeCatalog(List<Bike> bikes)
@@ -32,15 +34,16 @@ namespace ExamFirstSemester
             /*
             foreach (var a in _bikes)
             {
-                if (a.ChasisNumber != aBike.ChasisNumber)
+                if (aBike.ChasisNumber == a.ChasisNumber)
                 {
-                    _bikes.Add(aBike); 
+                    throw new ArgumentException("Does not exist");
+                    
                 }
 
                 else
                 {
-                    
-                    throw new ArgumentException("Cannot add bike");
+                    _bikes.Add(aBike); 
+                   
                 }
             }*/
         }
@@ -62,6 +65,45 @@ namespace ExamFirstSemester
 
             return item;
         }
+        
+        
+        public void DeleteBike(int chasisNumber)
+        {
+            try
+            {
+                _bikes.Remove(SearchBike(chasisNumber));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+        
+        
+        public List<Bike> SearchBikesOfModel(string model)
+        {
+            foreach (var bike in _bikes)
+            {
+                if (bike.Model == model)
+                {
+                    _bikesSearched.Add(bike);
+                }
+
+                
+            }
+
+            return _bikesSearched;
+        }
+
+        public void deleteAllBikesOfModel(string model)
+        {
+            _bikes.RemoveAll(bike => bike.Model == model);
+        }
+
+
+
+
 
         public override string ToString()
         {

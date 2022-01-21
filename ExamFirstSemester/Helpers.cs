@@ -2,7 +2,7 @@ using System;
 
 namespace ExamFirstSemester
 {
-    public class Helpers
+    public static class Helpers
     {
         public static void PrintHelp(string headline, string body, int count, DateTime date)
         {

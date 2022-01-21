@@ -20,6 +20,8 @@ namespace ExamFirstSemester
         Bike b1 = new Bike("Royal Enfield Classic 350", 2021, "blue" , 321);
         Bike b2 = new Bike("Hero", 2019, "black" , 943);
         Bike b3 = new Bike("Hero", 2022, "green" , 12);
+        Bike b4 = new Bike("Motor", 2000, "black" , 32);
+        Bike b5 = new Bike("Cannondale", 2122, "green" , 32);
         Bike e1 = new EBike("750W", "Hero Splendor Plus", 2022, "green" , 10);
         Bike e2 = new EBike("600W", "Hero Plus", 2012, "White" , 70);
         Console.WriteLine(b1);
@@ -34,8 +36,20 @@ namespace ExamFirstSemester
         customerCatalog.AddBike(b1);
         customerCatalog.AddBike(b2);
         customerCatalog.AddBike(b3);
+        customerCatalog.AddBike(b4);
         customerCatalog.AddBike(e1);
         customerCatalog.AddBike(e2);
+        try
+        {
+            
+            customerCatalog.AddBike(b5);
+            
+        }
+
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
         
         
         //printing all list

@@ -31,20 +31,17 @@ namespace ExamFirstSemester
         {
             if (aBike == null) return;
             _bikes.Add(aBike); 
+            
             /*
             foreach (var a in _bikes)
             {
-                if (aBike.ChasisNumber == a.ChasisNumber)
+                if (aBike.ChasisNumber != a.ChasisNumber)
                 {
-                    throw new ArgumentException("Does not exist");
+                    _bikes.Add(aBike);
                     
                 }
-
-                else
-                {
-                    _bikes.Add(aBike); 
-                   
-                }
+                else  throw new ArgumentException("Does not exist");
+                
             }*/
         }
         
